@@ -1,0 +1,262 @@
+{
+  "Contracts": {
+    "STRK": "0x7eBcb59eCDc39f3C2FedaD6Fb97B4995E33267b9",
+    "Comptroller": "0xFAEAED657C9E237EF64D1c4e0A4f96271280eEb9",
+    "Unitroller": "0xC89b8891ec5D9B84275cCD95fb72E2Ee4e319721",
+    "StrikeAggregatorPriceOracle": "0xBA9347096966362bD7C4A99FCc6fAb3566EcE030",
+    "sETH": "0x91dd23fc972028cf51F58D8B5e2C6b35d85AFa08",
+    "SErc20Delegate": "0xDC641090947F800E156929a9afB5c2F653A76432",
+    "sSTRK": "0x883cf30b29E1dCF9A3de39bfddbdc946e85fF12e",
+    "sUSDT": "0x6dbF68886332D0B011BacbB413f505dC41c18738",
+    "sUSDC": "0x6c75EbDdB94A7661cE95521Da6FC25895666bb6C",
+    "sBUSD": "0xBDB38589212e58FC9a94d8AB43Cbc186FBA6791b",
+    "sLINK": "0x6B473A3446BCCc5EB42738c719c96E0483A65812",
+    "sUNI": "0xe2F7E97A3E6EdBceb1E9305502b49EeD08dCac9e",
+    "sWBTC": "0xCF7e7A2EE864EeaA384E9869956E167eB3B961A9",
+    "sCOMP": "0x30e817c8Ca8E9a44eFd33F9E9925bF8fbdc788D4",
+    "sSXP": "0x8254FcF50282f1b52406Be05ec5b5535045Fb04d",
+    "sAPE": "0x02dFB5689D76C213b8B42721F5113677B2b6D79A",
+    "JumpRateModel": "0x70DEEF7220076AE6b37c190BcBF682D574547269",
+    "GovernorAlpha": "0x2Cc7f36f5FFfe1f8880409f71240aAd71b1b802c",
+    "Timelock": "0xC438F3DA0b18f2C513ee92393e566B03F959F77D"
+  },
+  "Blocks": {
+    "STRK": 12808106,
+    "Comptroller": 12808428,
+    "Unitroller": 12808124,
+    "StrikeAggregatorPriceOracle": 12809058,
+    "sETH": 12809190,
+    "SErc20Delegate": 12815026,
+    "sSTRK": 12907574,
+    "sUSDT": 12859604,
+    "sUSDC": 12822808,
+    "sBUSD": 12815088,
+    "sLINK": 12815199,
+    "sUNI": 12859622,
+    "sWBTC": 12859637,
+    "sCOMP": 12815171,
+    "sSXP": 12907594,
+    "sAPE": 12907606,
+    "JumpRateModel": 12809091,
+    "GovernorAlpha": 12860044,
+    "Timelock": 12859942
+  },
+  "StrikeAggregatorPriceOracle": {
+    "description": "Strike Oracle",
+    "address": "0xBA9347096966362bD7C4A99FCc6fAb3566EcE030"
+  },
+  "Unitroller": {
+    "description": "Unitroller",
+    "address": "0xC89b8891ec5D9B84275cCD95fb72E2Ee4e319721"
+  },
+  "Comptroller": {
+    "StdComptroller": {
+      "address": "0xFAEAED657C9E237EF64D1c4e0A4f96271280eEb9",
+      "contract": "Comptroller",
+      "description": "Standard Comptroller Impl"
+    }
+  },
+  "STRK": {
+    "contract": "STRK",
+    "symbol": "STRK",
+    "name": "Strike Token",
+    "decimals": 18,
+    "address": "0x7eBcb59eCDc39f3C2FedaD6Fb97B4995E33267b9"
+  },
+  "Governor": {
+    "GovernorAlpha": {
+      "name": "Strike Governor Alpha",
+      "contract": "GovernorAlpha",
+      "address": "0x2Cc7f36f5FFfe1f8880409f71240aAd71b1b802c"
+    }
+  },
+  "Timelock": {
+    "address": "0xC438F3DA0b18f2C513ee92393e566B03F959F77D",
+    "contract": "Timelock",
+    "description": "Standard Timelock"
+  },
+  "Tokens": {
+    "STRK": {
+      "address": "0x7eBcb59eCDc39f3C2FedaD6Fb97B4995E33267b9",
+      "decimals": 18,
+      "name": "Strike Token",
+      "symbol": "STRK"
+    },
+    "USDT": {
+      "address": "0x16F04aa91972963E5499d9aF77B0262107d56723",
+      "decimals": 6,
+      "name": "Tether USD",
+      "symbol": "USDT"
+    },
+    "USDC": {
+      "address": "0x9195c7631e6583625aDAD303c41172D5197F6d83",
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    },
+    "BUSD": {
+      "address": "0xBce038Eb94F86616ebf035218A60Bc5E9d6DaFE7",
+      "decimals": 18,
+      "name": "Binance USD",
+      "symbol": "BUSD"
+    },
+    "LINK": {
+      "address": "0xbE4a435a288f1bfc3fE5845b03A0645d18536fB8",
+      "decimals": 18,
+      "name": "ChainLink Token",
+      "symbol": "LINK"
+    },
+    "ETH": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "address": "0x0000000000000000000000000000000000000000"
+    },
+    "UNI": {
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "address": "0x994E6aE9CBFC03499Bc8883Ce1Fa1DD35460E323"
+    },
+    "WBTC": {
+      "decimals": 18,
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "address": "0xF8f9271D7480C89Ba595B5A66067f36c6E75B3A5"
+    },
+    "COMP": {
+      "name": "Compound",
+      "symbol": "COMP",
+      "decimals": 18,
+      "address": "0x70E90e9D11Ad89743A1e8d7256E15daa34409d6e"
+    },
+    "SXP": {
+      "name": "Swipe",
+      "symbol": "SXP",
+      "decimals": 18,
+      "address": "0xec20d9Ba2a39713e9a019EE69Af35541F10b37f6"
+    },
+    "APE": {
+      "name": "ApeCoin",
+      "symbol": "APE",
+      "decimals": 18,
+      "address": "0x4766dC61dAC27d56Ae093c2dc79a9E6D3ea561d1"
+    }
+  },
+  "SErc20Delegate": {
+    "SErc20Delegate": {
+      "address": "0xDC641090947F800E156929a9afB5c2F653A76432",
+      "contract": "SErc20Delegate",
+      "description": "Standard SErc20 Delegate"
+    }
+  },
+  "sTokens": {
+    "sSTRK": {
+      "address": "0x883cf30b29E1dCF9A3de39bfddbdc946e85fF12e",
+      "contract": "SErc20Delegator",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "20000000000000000",
+      "name": "Strike STRK",
+      "symbol": "sSTRK",
+      "underlying": "0x7eBcb59eCDc39f3C2FedaD6Fb97B4995E33267b9"
+    },
+    "sUSDT": {
+      "address": "0x6dbF68886332D0B011BacbB413f505dC41c18738",
+      "contract": "SErc20Delegator",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "20000000000000000",
+      "name": "Strike USDT",
+      "symbol": "sUSDT",
+      "underlying": "0x16F04aa91972963E5499d9aF77B0262107d56723"
+    },
+    "sUSDC": {
+      "address": "0x6c75EbDdB94A7661cE95521Da6FC25895666bb6C",
+      "contract": "SErc20Delegator",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "20000000000000000",
+      "name": "Strike USDC",
+      "symbol": "sUSDC",
+      "underlying": "0x9195c7631e6583625aDAD303c41172D5197F6d83"
+    },
+    "sBUSD": {
+      "address": "0xBDB38589212e58FC9a94d8AB43Cbc186FBA6791b",
+      "contract": "SErc20Delegator",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "20000000000000000",
+      "name": "Strike BUSD",
+      "symbol": "sBUSD",
+      "underlying": "0xBce038Eb94F86616ebf035218A60Bc5E9d6DaFE7"
+    },
+    "sLINK": {
+      "address": "0x6B473A3446BCCc5EB42738c719c96E0483A65812",
+      "contract": "SErc20Delegator",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "20000000000000000",
+      "name": "Strike LINK",
+      "symbol": "sLINK",
+      "underlying": "0xbE4a435a288f1bfc3fE5845b03A0645d18536fB8"
+    },
+    "sUNI": {
+      "address": "0xe2F7E97A3E6EdBceb1E9305502b49EeD08dCac9e",
+      "contract": "SErc20Delegator",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "20000000000000000",
+      "name": "Strike UNI",
+      "symbol": "sUNI",
+      "underlying": "0x994E6aE9CBFC03499Bc8883Ce1Fa1DD35460E323"
+    },
+    "sWBTC": {
+      "address": "0xCF7e7A2EE864EeaA384E9869956E167eB3B961A9",
+      "contract": "SErc20Delegator",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "20000000000000000",
+      "name": "Strike WBTC",
+      "symbol": "sWBTC",
+      "underlying": "0xF8f9271D7480C89Ba595B5A66067f36c6E75B3A5"
+    },
+    "sCOMP": {
+      "address": "0x30e817c8Ca8E9a44eFd33F9E9925bF8fbdc788D4",
+      "contract": "SErc20Delegator",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "20000000000000000",
+      "name": "Strike COMP",
+      "symbol": "sCOMP",
+      "underlying": "0x70E90e9D11Ad89743A1e8d7256E15daa34409d6e"
+    },
+    "sETH": {
+      "address": "0x91dd23fc972028cf51F58D8B5e2C6b35d85AFa08",
+      "contract": "sEther",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
+      "name": "Strike ETH",
+      "symbol": "sETH",
+      "underlying": ""
+    },
+    "sSXP": {
+      "address": "0x8254FcF50282f1b52406Be05ec5b5535045Fb04d",
+      "contract": "SErc20Delegator",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "20000000000000000",
+      "name": "Strike SXP",
+      "symbol": "sSXP",
+      "underlying": "0xec20d9Ba2a39713e9a019EE69Af35541F10b37f6"
+    },
+    "sAPE": {
+      "address": "0x02dFB5689D76C213b8B42721F5113677B2b6D79A",
+      "contract": "SErc20Delegator",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "20000000000000000",
+      "name": "Strike APE",
+      "symbol": "sAPE",
+      "underlying": "0x4766dC61dAC27d56Ae093c2dc79a9E6D3ea561d1"
+    }
+  },
+  "InterestRateModel": {
+    "JumpRateModel": {
+      "address": "0x70DEEF7220076AE6b37c190BcBF682D574547269",
+      "contract": "JumpRateModel",
+      "description": "JumpRateModel",
+      "name": "JumpRateModel"
+    }
+  }
+}
